@@ -1,0 +1,19 @@
+Time consume: 0.56477
+CIRCUIT-X, CIRCUIT Y: 349,   697
+Circuit Area: 243253
+Circuit HPWL: 22557
+sequencePositive:
+9 5 2 6 8 0 7 1 3 4 
+sequenceNegative:
+1 7 4 0 2 6 9 3 8 5 
+BLOCK-X:Y
+block 0 >>>>> 114 : 322
+block 1 >>>>> 114 : 583
+block 2 >>>>> 275 : 196
+block 3 >>>>> 0 : 322
+block 4 >>>>> 0 : 489
+block 5 >>>>> 0 : 0
+block 6 >>>>> 152 : 196
+block 7 >>>>> 114 : 404
+block 8 >>>>> 0 : 129
+block 9 >>>>> 208 : 0

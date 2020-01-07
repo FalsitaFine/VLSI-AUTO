@@ -1,0 +1,9 @@
+The project contains several parts: the parsing/loading functions from pa0, a forward traverse function to find the delay, a backward traverse function to find the slack, and another function finding critical path based on the slacks of each gate.
+
+Notes:
+1.the usage is:
+make
+./sta library_name circuit_name
+2.I did not hardcode any special gates in the code, in case of there are different gates called INV and NOT, or BUF and BUFF in the actual use. So during test, if there are "NOT" or "BUFF" gates in the circuit, please define them in the library(by copying the "INV" and "BUF" gates and modifying their names).
+
+Thanks for reading!
