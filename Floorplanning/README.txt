@@ -23,7 +23,7 @@ Some special data structures are used in the implementation to obtain a better r
 
 
 -Parameters Selection-
-The initial temperature and cooling rate of the algorithm is chosen as same as the example given by the lecture slides: initial temperature is 40000, cooling rate is 95%. To obtain better annealing results, I chose freezing temperature as 0.01(1/10 of the example value) to make the annealing process longer and more complete.
+The initial temperature and cooling rate of the algorithm is chosen as: initial temperature is 40000, cooling rate is 95%. To obtain better annealing results, I chose freezing temperature as 0.01(1/10 of the example value) to make the annealing process longer and more complete.
 
 The K value used in Boltzmann probability function is chosen based on the certain floorplanning file. The program runs N times random moves on the initial floorplan and records the average costs of these moves(N is proportional to the model number of the file). Then the K is computed to make 95\% of the moves can be accept with the initial temperature. If we want about 100\% of the moves can be accept at the beginning, K value should be closed to infinity and make the annealing too slow. The value 95\% is inspired by the cooling rate and is tested to be a good choice.
 
